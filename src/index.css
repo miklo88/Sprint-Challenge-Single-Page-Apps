@@ -1,17 +1,18 @@
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  padding: 0 auto;
   font-family: sans-serif;
-}
-
-main {
-  width: 85vw;
-  min-height: 80vh;
+  max-height: 768px;
   max-width: 1024px;
-  margin: 35px auto;
+}
+main {
   background: #fff;
   padding: 15px;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.01);
+  
+}
+header h1, h6 {
+  text-align: center;
 }
 
 .grid-view {
@@ -20,20 +21,32 @@ main {
   justify-content: space-evenly;
 }
 
-.page-view {
-  min-height: 40vh;
-}
-
 .grid-view div.card.ui {
   margin: 1.25rem;
 }
-/*
-.main-img {
-  display: block;
-  border-radius: 100%;
-  margin: 0 auto;
-} */
 
-header h1 {
-  text-align: center;
+.ui.card .content img {
+  width: 100%;
+  margin-bottom: 10px;
 }
+
+.ui.card .content {
+  width: 100%;
+  /* padding: 15px; */
+}
+.location {
+  padding-bottom: 25px;
+}
+
+.residents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 175px;
+  bottom: -1px;
+  width: 40%;
+  height: 35px;
+  border-radius: 3px;
+  background-color: lightgrey;
+} 

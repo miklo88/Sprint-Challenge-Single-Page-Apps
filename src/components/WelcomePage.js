@@ -10,6 +10,7 @@ export default function WelcomePage() {
           src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
           alt="rick"
         />
+        <h6>By your's truly, Carlitos Redding. Fueled by a lot of coffee and frustration!</h6>
       </header>
     </section>
   );
